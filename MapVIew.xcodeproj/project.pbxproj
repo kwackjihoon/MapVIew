@@ -15,6 +15,7 @@
 		4E4AC64820C8DE6700BE8B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4AC64620C8DE6700BE8B82 /* LaunchScreen.storyboard */; };
 		4E4AC65320C8DE6700BE8B82 /* MapVIewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4AC65220C8DE6700BE8B82 /* MapVIewTests.swift */; };
 		4E4AC65E20C8DE6700BE8B82 /* MapVIewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4AC65D20C8DE6700BE8B82 /* MapVIewUITests.swift */; };
+		4E4AC66D20C8DE9200BE8B82 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4AC66C20C8DE9200BE8B82 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4E4AC65920C8DE6700BE8B82 /* MapVIewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapVIewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4AC65D20C8DE6700BE8B82 /* MapVIewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVIewUITests.swift; sourceTree = "<group>"; };
 		4E4AC65F20C8DE6700BE8B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4AC66C20C8DE9200BE8B82 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E4AC66D20C8DE9200BE8B82 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				4E4AC65120C8DE6700BE8B82 /* MapVIewTests */,
 				4E4AC65C20C8DE6700BE8B82 /* MapVIewUITests */,
 				4E4AC63820C8DE6700BE8B82 /* Products */,
+				4E4AC66B20C8DE9100BE8B82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				4E4AC65F20C8DE6700BE8B82 /* Info.plist */,
 			);
 			path = MapVIewUITests;
+			sourceTree = "<group>";
+		};
+		4E4AC66B20C8DE9100BE8B82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E4AC66C20C8DE9200BE8B82 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
